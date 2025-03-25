@@ -24,11 +24,19 @@ public class Main {
 		carro0.buzina(false);
 		carro0.buzina(true);*/
 		
-		Conta dados = new Conta();
+		/*Conta dados = new Conta();
 		dados.deposito(10000f);
 		dados.saque(5000f);
 		dados.consultar("cpf");
 		dados.consultar("nome");
-		dados.consultar("saldo");
+		dados.consultar("saldo"); */
+		
+		Investimento dados = new Investimento();
+		System.out.println(dados.getTaxaJurosAno());
+		System.out.println(dados.getValor());
+		System.out.println(dados.getTempoAnos());
+		System.out.println(dados.rendimentoValor());
+
+
 	}
 }
